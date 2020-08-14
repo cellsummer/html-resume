@@ -1,0 +1,196 @@
+{
+    "title": [
+        {
+            "fullname": "Wenjing Fang",
+            "bio": "Creative actuary & data scientist with 8+ years of industry experience in model development & testing, valuation, and actuarial auditing, plus a proven record of delivery, ownership, and adaptability"
+        }
+    ],
+    "experiences": [
+        {
+            "place": "Prudential Financial",
+            "s_time": "Jan.2016",
+            "e_time": "Jul.2020",
+            "title": "Director, Actuary",
+            "location": "Hartford, CT US",
+            "desc": [
+                "Leading development of GGY AXIS ALM model for multiple business use cases, such as AAT, C3P1 and DST. The model serves as the core calculation engine for the end-to-end modeling solution;",
+                "Working with business partners to build the enterprise end-to-end modeling platform; Supporting Unit Testing and User Acceptance Testing; Authoring model technical specifications",
+                "In charge of Asset modeling in GGY AXIS covering fixed income assets, derivatives, equity and structured assets",
+                "In charge of Reinvestment modeling in GGY AXIS to mimic Prudential's Global Portfolio Management practice; Modeling complex reinvestment strategies using internal coding algorithm"
+            ]
+        },
+        {
+            "place": "PricewaterhouseCoopers",
+            "s_time": "Dec.2009",
+            "e_time": "Jun.2014",
+            "title": "Senior Associate",
+            "location": "Beijing, China",
+            "desc": [
+                "Actuarial auditing and Dynamic Solvency Test reviewing. Working as key team member in actuarial due diligence for multiple Merge and Acquisition projects",
+                "In charge of several local actuarial consulting projects, including Asset Liability Management modeling, actuarial system conversion, business plan and expense study",
+                "Rich experience in life insurance pricing and valuation. Familiar with statutory reserving, China GAAP reserving and Traditional Embedded Value",
+                "Top performer of the firm (less than 5 percent) in 4 consecutive years"
+            ]
+        },
+        {
+            "place": "Voya Financial",
+            "s_time": "May.2015",
+            "e_time": "Aug.2015",
+            "title": "Actuarial Intern",
+            "location": "Windsor, CT US",
+            "desc": [
+                "Converting the spreadsheet-based assumption tables into a standardized database and designing a MSV table creator to automate input table creation process for the MoSes model",
+                "Redesigning the validation tools for the quarterly production as the major control. Improved the efficiency of the procedure by more than 80 percent",
+                "MoSes CFT model testing and developing"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "GGY AXIS Model Conversion",
+            "place": "Prudential",
+            "s_time": "2016",
+            "e_time": "2017",
+            "desc": [
+                "Leading GGY AXIS model conversion for Prudential's cashflow testing models",
+                "Designing consistent paradigm for the model building and running process",
+                "Utilizing formula-link and external DLLs to streamline the datalink process",
+                "Creating best practice documentation such as AXIS parallel development SOP, AXIS naming convention SOP, and AXIS formula coding SOP, etc."
+            ]
+        },
+        {
+            "name": "Internal Asset Modeling",
+            "place": "Prudential",
+            "s_time": "2017",
+            "e_time": "2019",
+            "desc": [
+                "Leveraging GGY AXIS as the internal asset modeling platform; Converting all asset classes from legacy asset projection platforms",
+                "Integrating asset projection model with the main ALM model to promote \"one model\" concept",
+                "Validating asset projections and market value calculations in spreadsheets and VBA",
+                "Working with IT partners to build the pipeline to populate asset warehouse for the downstream users"
+            ]
+        },
+        {
+            "name": "Reinvestment Strategy Modeling",
+            "place": "Prudential",
+            "s_time": "2017",
+            "e_time": "2020",
+            "desc": [
+                "Implementing user defined reinvestment strategies using formula table in AXIS; Defining flexible input structure to allow user to specify features/components of the desired reinvestment strategy",
+                "Coding target allocation strategies with rich features including passive/active rebalancing, duration matching, swap hedging risk limit sales, etc"
+            ]
+        },
+        {
+            "name": "In-House ESG",
+            "place": "Prudential",
+            "s_time": "2019",
+            "e_time": "2019",
+            "desc": [
+                "Incorporating the in-house ESG with the actuarial projection platform for variable annuity valuation and forecast",
+                "Authoring specs for the input and output requirements for the end-to-end ESG file generating process",
+                "Presenting key differences between the in-house ESG and the US Academy ESG to senior management; Also presenting cost-benefit analysis on several alternatives regarding the implementing solutions for decision-making",
+                "Expertise in the techniques used in the ESG simulation and calibration"
+            ]
+        },
+        {
+            "name": "Due Diligence",
+            "place": "pwc",
+            "s_time": "2010",
+            "e_time": "2013",
+            "desc": [
+                "Multiple projects experience for both buy/sell side due diligence in Asia-Pacific area",
+                "Independently performing inforce/new business valuation and assumption benchmark",
+                "New business multiplier estimation via macroeconomics analysis"
+            ]
+        },
+        {
+            "name": "Statutory Valuation and Forecast",
+            "place": "Prudential/pwc",
+            "s_time": "2010",
+            "e_time": "2020",
+            "desc": [
+                "Experience with US statutory reserve and capital; Knowledgeable on VM20/21 topics for individual life and variable annuity business",
+                "Experience with China solvency/GAAP reserve and capital requirement"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "M.S. in Financial Mathematics",
+            "college": "University of Connecticut",
+            "s_time": "2014",
+            "e_time": "2015",
+            "location": "Storrs, CT US",
+            "gpa": "4.0/4.0",
+            "desc": ""
+        },
+        {
+            "degree": "M.S. in Actuarial Science and Risk Management",
+            "college": "Renmin University of China",
+            "s_time": "2008",
+            "e_time": "2010",
+            "location": "Beijing, China",
+            "gpa": "3.7/4.0",
+            "desc": ""
+        },
+        {
+            "degree": "B.S. in Statistics",
+            "college": "Renmin University of China",
+            "s_time": "2004",
+            "e_time": "2008",
+            "location": "Beijing, China",
+            "gpa": "3.7/4.0",
+            "desc": ""
+        }
+    ],
+    "contact": [
+        {
+            "github": "github.com/cellsummer",
+            "linkedin": "linkedin.com/in/wjfang",
+            "email": "fang.wenjing@yahoo.com",
+            "phone": "(+86)151.2000.6775"
+        }
+    ],
+    "skills_adv": [
+        {
+            "act": [
+                "GGY AXIS",
+                "MoSes",
+                "Excel VBA"
+            ],
+            "db": [
+                "MSSQL",
+                "SQLite",
+                "MS Access"
+            ],
+            "lang": [
+                "VB.NET",
+                "Matlab",
+                "Python",
+                "R"
+            ]
+        }
+    ],
+    "skills_basic": [
+        {
+            "act": [
+                "Prophet",
+                "AFM",
+                "SAS"
+            ]
+        }
+    ],
+    "qualifications": [
+        "FSA",
+        "CFA Exam Level III Candidate"
+    ],
+    "headers": [
+        "Experiences",
+        "Selected Projects",
+        "Education",
+        "Contact",
+        "Advanced Developer",
+        "Advanced User",
+        "Qualifications"
+    ]
+}

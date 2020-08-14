@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <!--
+  <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css/normalize.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Font-Awesome/css/font-awesome.css') }}">
+</head>
+
+<body lang="en">
+  <section id="main">
+    <header id="title">
+      <h1>{{title["fullname"]}}</h1>
+      <span class="subtitle">{{title["bio"]}}</span>
+    </header>
+
+    <!--Experiences-->
+    <section class="main-block">
+      <h2>
+        <i class="fa fa-suitcase"></i> {{headers[0]}}
+      </h2>
+      {% for exp in experiences %}
+      <section class="blocks">
+        <div class="date">
+          <span>{{exp["s_time"]}}</span><span>{{exp["e_time"]}}</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>{{exp["place"]}}</h3>
+            <span class="place">{{exp["title"]}}</span>
+            <span class="location">{{exp["location"]}}</span>
+          </header>
+          <div>
+            <ul>
+              {% for role in exp["desc"] %}
+              <li>{{role}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+    </section>
+
+    <!--Projects-->
+    <section class="main-block">
+      <h2>
+        <i class="fa fa-folder-open"></i> {{headers[1]}}
+      </h2>
+      {% for project in projects %}
+      <section class="blocks">
+        <div class="date">
+          <span>{{project["s_time"]}}</span><span>{{project["e_time"]}}</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>{{project["name"]}}</h3>
+            <span class="place">{{project["place"]}}</span>
+          </header>
+          <div>
+            <ul>
+              {% for item in project["desc"]%}
+              <li>{{item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+    </section>
+
+    <!--Education-->
+    <section class="main-block concise">
+      <h2>
+        <i class="fa fa-graduation-cap"></i> {{headers[2]}}
+      </h2>
+      {% for education in educations %}
+      <section class="blocks">
+        <div class="date">
+          <span>{{education["s_time"]}}</span><span>{{education["e_time"]}}</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>{{education["degree"]}}</h3>
+            <span class="place">{{education["college"]}}</span>
+            <span class="location">{{education["location"]}}</span>
+          </header>
+        </div>
+      </section>
+      {% endfor %}
+
+    </section>
+  </section>
+
+  <!--sidebar - contact -->
+  <aside id="sidebar">
+    <div class="side-block" id="contact">
+      <h1>
+        {{headers[3]}}
+      </h1>
+
+      <ul>
+        <li><i class="fa fa-github"></i> {{contact["github"]}}</li>
+        <li><i class="fa fa-linkedin"></i> {{contact["linkedin"]}}</li>
+        <li><i class="fa fa-envelope"></i> {{contact["email"]}}</li>
+        <li><i class="fa fa-phone"></i> {{contact["phone"]}}</li>
+      </ul>
+
+    </div>
+
+    <!--skills-->
+    <div class="side-block" id="skills">
+      <h1>
+        {{headers[4]}}
+      </h1>
+      {% for skill in skills_adv %}
+      {% for skill_bucket in skill %}
+      <ul>
+        {% for item in skill[skill_bucket] %}
+        <li>{{item}}</li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+      {% endfor %}
+
+      <h1>
+        {{headers[5]}}
+      </h1>
+      {% for skill in skills_basic %}
+      {% for skill_bucket in skill %}
+      <ul>
+        {% for item in skill[skill_bucket] %}
+        <li>{{item}}</li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+      {% endfor %}
+
+      <!-- Qualifications -->
+      <h1>
+        {{headers[6]}}
+      </h1>
+      <ul>
+        {% for item in qualifications %}
+        <li>{{item}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="side-block" id="disclaimer">
+      This r&eacute;sum&eacute; was wholly typeset with HTML/CSS &mdash; see <code>git.io/vVSYL</code>
+    </div>
+  </aside>
+</body>
+
+</html>
