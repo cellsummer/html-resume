@@ -7,6 +7,17 @@
     ],
     "experiences": [
         {
+            "place": "Citic-Prudential Life Insurance Co.",
+            "s_time": "Sep.2020",
+            "e_time": "Present",
+            "title": "Valuation Actuary",
+            "location": "Beijing, China",
+            "desc": [
+                "Responsible for reporting various reporting metrics to reginal office, including EEV, Economic Capital, IFRS and Solvency;",
+                "Leading initiatives for streamlined modeling and reporting process"
+            ]
+        },
+        {
             "place": "Prudential Financial",
             "s_time": "Jan.2016",
             "e_time": "Jul.2020",

@@ -26,7 +26,7 @@ skills_basic = data["skills_basic"]
 
 # experience
 experiences = data["experiences"]
-selected = [0, 2, 1]
+selected = [0, 1, 2]
 experiences = [experiences[idx] for idx in selected]
 
 # projects
@@ -60,3 +60,5 @@ def home():
 if __name__ == "__main__":
     app.run(debug=True)
 
+#%% print('hello')
+# %%
